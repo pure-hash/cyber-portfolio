@@ -30,7 +30,7 @@ This section contains threat hunting labs that demonstrate proactive identificat
 
 ---
 
-## 🔹 Folder Structure for Each Lab
+## 🔹 Folder Structure
 
 Each lab folder contains:
 
