@@ -1,37 +1,35 @@
-# SOC Lab 1: SIEM Setup
+# Lab 1 – SIEM Setup
 
-## 📌 Overview
-In this lab, I set up a Security Information and Event Management (SIEM) tool to monitor Windows Event Logs. This lab demonstrates how to collect, parse, and analyze logs to detect potential threats in a simulated environment.
+## Overview
+Learn how to deploy a SIEM, collect logs, and create dashboards and alerts.
 
-## 🛠 Tools Used
-- Windows 10 VM
-- Elastic Stack (Elasticsearch, Logstash, Kibana) / Splunk / Wazuh
-- Sysmon
-- PowerShell
+## Objectives
+- Install and configure a SIEM
+- Collect logs from multiple sources
+- Create dashboards and alerts for monitoring
 
-## 🧪 Steps Performed
-1. Installed Elastic Stack (or Splunk/Wazuh) on a lab VM.
-2. Configured log collection from Windows 10 VM.
-3. Installed Sysmon to collect detailed system events.
-4. Created dashboards to visualize log events.
-5. Verified logs are ingested and searchable.
-6. Tested alerting rules with simulated login failures.
+## Tools Used
+- SIEM software (Splunk, ELK)
+- Windows/Linux log sources
+- Python or PowerShell scripts
 
-## 📊 Findings & Screenshots
-- Logs successfully ingested from Windows VM.
-- Screenshot: `/images/siem_dashboard.png`
-- Screenshot: `/images/event_log_example.png`
+## Steps
+1. Deploy SIEM in lab environment
+2. Connect log sources and verify data ingestion
+3. Create dashboards to visualize events
+4. Set up alerts for critical activities
+5. Document the setup process
 
-## 🛡 Skills Demonstrated
-- SIEM installation and configuration
-- Log collection and visualization
-- Basic threat monitoring
-- Dashboard creation
+## Findings
+- SIEM successfully ingested logs
+- Dashboards and alerts operational
+- Configuration documented
 
-## 🧠 What I Learned
-- How SIEM collects and organizes data from endpoints.
-- The importance of log normalization and parsing.
-- Creating dashboards to spot anomalies.
+## Skills Demonstrated
+- SIEM deployment and configuration
+- Log ingestion and parsing
+- Dashboard creation and alerting
 
-## 🔗 Related LinkedIn Post
-[Link to Part 1 Post]
+## Folder Structure
+- **`/images`** – Screenshots of dashboards and alerts  
+- **`/scripts`** – Configuration or automation scripts  
