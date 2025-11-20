@@ -1,36 +1,34 @@
-# SOC Lab 2: Sysmon Logging
+# Lab 2 – Sysmon Logging
 
-## 📌 Overview
-This lab focuses on configuring Sysmon for advanced Windows logging, allowing us to monitor system events like process creation, network connections, and file changes.
+## Overview
+Configure Sysmon to collect detailed security logs and forward them to a SIEM for analysis.
 
-## 🛠 Tools Used
-- Windows 10 VM
+## Objectives
+- Deploy Sysmon on Windows systems
+- Collect detailed system activity logs
+- Analyze logs in SIEM
+
+## Tools Used
 - Sysmon
-- PowerShell
-- Elastic Stack / Splunk / Wazuh
+- SIEM software (Splunk, ELK)
+- Python or PowerShell scripts
 
-## 🧪 Steps Performed
-1. Installed Sysmon on Windows VM.
-2. Created a custom Sysmon configuration XML.
-3. Monitored process creation, network connections, and file modifications.
-4. Verified logs in SIEM for clarity and accuracy.
-5. Tested detection using benign test processes.
+## Steps
+1. Install and configure Sysmon on target systems
+2. Collect and forward logs to SIEM
+3. Analyze event logs for anomalies
+4. Document notable events and alerts
 
-## 📊 Findings & Screenshots
-- All Sysmon events are properly ingested.
-- Screenshot: `/images/sysmon_event_example.png`
-- Screenshot: `/images/sysmon_dashboard.png`
+## Findings
+- Sysmon captured detailed events
+- Forwarding to SIEM successful
+- Logs analyzed and documented
 
-## 🛡 Skills Demonstrated
-- Endpoint monitoring
-- SIEM log ingestion
-- Advanced logging setup
-- Understanding of Windows events
+## Skills Demonstrated
+- Sysmon configuration
+- Log collection and analysis
+- SIEM integration
 
-## 🧠 What I Learned
-- Sysmon provides critical visibility into endpoint behavior.
-- How to structure a configuration file to reduce noise.
-- How logs flow from endpoints to SIEM.
-
-## 🔗 Related LinkedIn Post
-[Link to Part 2 Post]
+## Folder Structure
+- **`/images`** – Screenshots of event logs and SIEM dashboards  
+- **`/scripts`** – Sysmon configs or log parsing scripts  
