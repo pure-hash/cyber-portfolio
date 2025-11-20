@@ -1,37 +1,35 @@
 # Lab 1 – DNS Anomalies
 
 ## Overview
-This lab focuses on detecting anomalies in DNS traffic that may indicate suspicious behavior, malware activity, or early signs of attacks.
+Detect anomalies in DNS traffic that may indicate suspicious behavior or potential attacks.
 
 ## Objectives
 - Analyze DNS logs for unusual patterns
-- Identify potential exfiltration or malicious activity
-- Create alerts for anomalous DNS behavior
+- Identify suspicious queries or domains
+- Document findings
 
 ## Tools Used
-- SIEM (Splunk, ELK)
-- Python or PowerShell scripts
+- SIEM software
 - DNS log datasets
+- Python or PowerShell scripts
 
 ## Steps
-1. Collect DNS log datasets from lab environment  
-2. Analyze query patterns and frequency  
-3. Identify anomalies such as unusual domains or repeated queries  
-4. Create alerts in SIEM for detected anomalies  
-5. Document findings
+1. Collect DNS log datasets from `/datasets`
+2. Analyze query patterns and frequency
+3. Identify anomalies
+4. Document alerts and suspicious activity
 
 ## Findings
-- Anomalous DNS queries detected  
-- Alerts successfully triggered for suspicious activity  
-- Patterns documented for SOC review
+- Anomalous DNS queries identified
+- Alerts configured in SIEM
+- Findings documented
 
 ## Skills Demonstrated
-- Log analysis  
-- Threat hunting with DNS data  
-- Anomaly detection  
-- Alert creation in SIEM
+- DNS log analysis
+- Threat hunting
+- Alert creation
 
-## File Structure
-- **`/datasets`** – DNS log files used for the lab  
-- **`/images`** – Screenshots of analysis, dashboards, or alerts  
-- **`/scripts`** – Hunting scripts for parsing or detecting anomalies
+## Folder Structure
+- **`/datasets`** – DNS log files  
+- **`/images`** – Screenshots of analysis or dashboards  
+- **`/scripts`** – Hunting scripts  
