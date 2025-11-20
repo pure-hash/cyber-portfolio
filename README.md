@@ -9,6 +9,8 @@ Real-world SOC simulations including SIEM setup, brute-force detection, log anal
 - [Lab 1: SIEM Setup](SOC-Labs/Lab1-SIEM-Setup)
 - [Lab 2: Sysmon Logging](SOC-Labs/Lab2-Sysmon-Logging)
 - [Lab 3: Brute-Force Detection](SOC-Labs/Lab3-Bruteforce-Detection)
+- [Lab 4: Phishing Analysis](SOC-Labs/Lab4-Phishing-Analysis)
+- [Lab 5: Playbooks](SOC-Labs/Lab5-Playbooks)
 
 ### 🔹 Malware Analysis
 Static and behavioral analysis using sandbox tools.
