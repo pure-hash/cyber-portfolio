@@ -1,6 +1,6 @@
 # SOC Labs
 
-This section contains Security Operations Center (SOC) labs that demonstrate hands-on defensive cybersecurity skills. Each lab is self-contained with its own README, images, and scripts, showing practical examples of monitoring, detection, and incident response.
+This section contains Security Operations Center (SOC) labs that demonstrate hands-on defensive cybersecurity skills. Each lab is self-contained with its own README, images, and scripts.
 
 ---
 
@@ -48,4 +48,4 @@ Each lab folder contains:
 
 ---
 
-Each lab is **self-contained**, allowing for easy navigation and review without relying on files outside the lab folder.
+Each lab is **self-contained**, allowing for easy navigation and review.
