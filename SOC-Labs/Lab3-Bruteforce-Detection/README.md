@@ -1,35 +1,34 @@
-# SOC Lab 3: Brute-Force Detection
+# Lab 3 – Brute-Force Detection
 
-## 📌 Overview
-This lab demonstrates how to detect brute-force attacks using SIEM. Failed login attempts were simulated to trigger alerts, highlighting how SOC analysts monitor suspicious activity.
+## Overview
+Detect and respond to brute-force login attempts using logs and automated SIEM alerts.
 
-## 🛠 Tools Used
-- Windows 10 VM
-- Elastic Stack / Splunk / Wazuh
-- Sysmon
-- PowerShell / Test scripts
+## Objectives
+- Identify brute-force attempts
+- Create automated alerts for suspicious activity
+- Document findings
 
-## 🧪 Steps Performed
-1. Configured alert rules for failed login attempts.
-2. Simulated brute-force login attempts.
-3. Verified alert triggered in SIEM dashboard.
-4. Logged incidents for documentation.
+## Tools Used
+- SIEM software
+- Authentication logs
+- Python or PowerShell scripts
 
-## 📊 Findings & Screenshots
-- Alert successfully triggered after multiple failed logins.
-- Screenshot: `/images/bruteforce_alert.png`
-- Screenshot: `/images/alert_dashboard.png`
+## Steps
+1. Collect authentication logs
+2. Analyze for failed login patterns
+3. Configure SIEM alerts for brute-force attempts
+4. Document suspicious IPs and activity
 
-## 🛡 Skills Demonstrated
-- Event correlation
-- Alert creation
-- Threat detection
-- Incident documentation
+## Findings
+- Brute-force attempts detected
+- Alerts successfully triggered
+- Summary documented for SOC
 
-## 🧠 What I Learned
-- How failed login patterns can indicate attacks.
-- Importance of timely alerting.
-- Reducing false positives in SOC operations.
+## Skills Demonstrated
+- Log analysis for brute-force detection
+- SIEM alert creation
+- Threat documentation
 
-## 🔗 Related LinkedIn Post
-[Link to Part 3 Post]
+## Folder Structure
+- **`/images`** – Screenshots of logs and alerts  
+- **`/scripts`** – Detection scripts  
