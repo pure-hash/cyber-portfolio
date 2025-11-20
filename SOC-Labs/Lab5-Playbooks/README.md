@@ -1,34 +1,34 @@
-# SOC Lab 5: Creating Playbooks
+# Lab 5 – SOC Playbooks
 
-## 📌 Overview
-This lab demonstrates the creation of incident response playbooks. Playbooks provide SOC analysts with structured guidance to handle common threats consistently and efficiently.
+## Overview
+Create SOC playbooks to standardize response to common security incidents and automate repetitive tasks.
 
-## 🛠 Tools Used
-- Word / Google Docs
-- SIEM Dashboards
-- Sysmon Logs
-- PowerShell / Scripts
+## Objectives
+- Design structured SOC playbooks
+- Automate routine responses
+- Document processes for incident response
 
-## 🧪 Steps Performed
-1. Selected common SOC incidents: brute-force, phishing, malware detection.
-2. Documented step-by-step response for each scenario.
-3. Included screenshots, log examples, and escalation steps.
-4. Reviewed playbooks for clarity and completeness.
+## Tools Used
+- SIEM software
+- Automation scripts
+- Documentation templates
 
-## 📊 Findings & Screenshots
-- Screenshot: `/images/playbook_example.png`
-- Screenshot: `/images/escalation_flow.png`
+## Steps
+1. Identify common security incidents
+2. Create step-by-step playbooks for responses
+3. Implement automation where possible
+4. Document workflows
 
-## 🛡 Skills Demonstrated
-- Incident response planning
-- Documentation
-- Standard operating procedures (SOPs)
-- Escalation workflows
+## Findings
+- Playbooks created for common incidents
+- Automation scripts tested
+- Documentation completed
 
-## 🧠 What I Learned
-- How to create repeatable response processes.
-- Importance of documentation for team efficiency.
-- Translating technical events into actionable guidance.
+## Skills Demonstrated
+- Playbook creation
+- Incident response workflow
+- Automation implementation
 
-## 🔗 Related LinkedIn Post
-[Link to Part 5 Post]
+## Folder Structure
+- **`/images`** – Screenshots of workflows  
+- **`/scripts`** – Automation scripts for responses  
