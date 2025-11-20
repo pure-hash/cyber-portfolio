@@ -1,35 +1,34 @@
-# SOC Lab 4: Phishing Log Analysis
+# Lab 4 – Phishing Analysis
 
-## 📌 Overview
-In this lab, I analyzed suspicious email logs to detect phishing attempts. The goal is to understand indicators of phishing and how to track malicious activity in a SOC environment.
+## Overview
+Analyze phishing emails, extract indicators of compromise (IOCs), and simulate SOC response.
 
-## 🛠 Tools Used
-- Windows 10 VM
-- SIEM (Elastic / Splunk / Wazuh)
-- Email test server or simulated logs
-- Sysmon
+## Objectives
+- Identify phishing characteristics
+- Extract relevant indicators
+- Document findings and mitigation
 
-## 🧪 Steps Performed
-1. Collected simulated phishing email logs.
-2. Parsed email headers to identify source and SPF/DKIM failures.
-3. Monitored links in the email for suspicious behavior.
-4. Triggered alerts in SIEM for emails containing malware links.
-5. Documented indicators of compromise (IOCs).
+## Tools Used
+- Email samples
+- Sandbox tools
+- Python or PowerShell scripts
 
-## 📊 Findings & Screenshots
-- Screenshot: `/images/phishing_email_example.png`
-- Screenshot: `/images/phishing_alert_dashboard.png`
+## Steps
+1. Collect phishing email samples
+2. Analyze headers, links, and attachments
+3. Extract IOCs
+4. Simulate SOC response and document
 
-## 🛡 Skills Demonstrated
-- Email log analysis
-- IOC identification
-- Alerting and monitoring
-- Reporting suspicious activity
+## Findings
+- Phishing emails analyzed
+- Indicators identified
+- Response process documented
 
-## 🧠 What I Learned
-- How to identify phishing emails in a SOC environment.
-- Using SIEM dashboards to detect email threats.
-- Documenting and escalating incidents.
+## Skills Demonstrated
+- Email analysis for phishing
+- IOC extraction
+- Threat documentation
 
-## 🔗 Related LinkedIn Post
-[Link to Part 4 Post]
+## Folder Structure
+- **`/images`** – Screenshots of email analysis  
+- **`/scripts`** – Automation scripts  
