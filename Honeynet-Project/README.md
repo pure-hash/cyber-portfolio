@@ -64,21 +64,6 @@ This section contains honeynet labs that demonstrate how to simulate, monitor, a
 
 ---
 
-## 🔹 Folder Structure
-
-Honeynet-Project/
-├── Lab1-SSH-Honeypot/
-├── Lab2-HTTP-Honeypot/
-├── Lab3-Custom-Python-Honeypot/
-├── Lab4-Geo-Mapping-and-Dashboard/
-│ ├── scripts/
-│ ├── logs/
-│ ├── images/
-│ └── README.md
-└── README.md
-
----
-
 ## 📄 How to Use
 
 1. Clone the repository.  
