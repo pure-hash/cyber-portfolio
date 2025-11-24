@@ -1,27 +1,35 @@
-# Lab 1 – SSH Honeypot
+# Lab 1 – SSH Honeypot
 
-This lab demonstrates how to set up an SSH honeypot to monitor unauthorized login attempts and capture attacker behavior in a controlled environment.
+## Overview
+Set up an SSH honeypot to monitor unauthorized login attempts and capture attacker behavior in a controlled environment.
 
----
+## Objectives
+- Simulate an SSH server
+- Log connection attempts (IP, username, password)
+- Capture attacker commands for analysis
 
-## 🔍 What This Lab Does
+## Tools Used
+- Python
+- SSH libraries or socket programming
+- Logging to file
 
-- Simulates an SSH server that accepts connections  
-- Logs incoming connection attempts (IP, username, password)  
-- Captures commands issued by attackers  
-- Stores logs for later analysis  
+## Steps
+1. Run the honeypot script in `/scripts`
+2. Monitor connections and commands in `/logs`
+3. Take screenshots or record analysis in `/images`
+4. Document attack patterns and findings
 
----
+## Findings
+- Recorded IP addresses attempting to connect
+- Common usernames and passwords used
+- Commands executed by attackers
 
-## 🛠️ Setup Instructions
+## Skills Demonstrated
+- Honeypot deployment  
+- Network monitoring  
+- Log analysis  
 
-1. Navigate to the `scripts/` directory.  
-2. Run the setup script (if provided) to install any dependencies (e.g., Python packages).  
-3. Generate an SSH host key if needed (e.g., `ssh-keygen -t rsa -f server.key`).  
-4. Start the honeypot script (e.g., `python3 ssh_honeypot.py -p 2222`).  
-5. Monitor the honeypot by checking the `logs/` directory for new entries.
-
----
-
-## 📂 Directory Structure
-
+## Folder Structure
+- **`/logs`** – Captured connection logs  
+- **`/images`** – Screenshots of attacks or analysis  
+- **`/scripts`** – Honeypot scripts and setup  
