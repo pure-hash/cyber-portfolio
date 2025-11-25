@@ -1,35 +1,47 @@
 # Lab 1 – SSH Honeypot
 
 ## Overview
-Set up an SSH honeypot to monitor unauthorized login attempts and capture attacker behavior in a controlled environment.
+Set up a basic Python-based SSH honeypot to monitor unauthorized login attempts, capture attacker behavior, and store logs for analysis.
 
 ## Objectives
-- Simulate an SSH server
-- Log connection attempts (IP, username, password)
-- Capture attacker commands for analysis
+- Simulate a fake SSH server using Python  
+- Log connection attempts (IP address, username, password guesses)  
+- Capture attacker input/commands for later review  
+- Organize logs and artifacts for documentation and reporting  
 
 ## Tools Used
-- Python
-- SSH libraries or socket programming
-- Logging to file
+- **Python 3**  
+- **socket** (Python standard library) for creating the honeypot  
+- **threading** (Python standard library) for handling multiple connections  
+- **Custom scripts:**  
+  - `ssh_honeypot.py` (main honeypot server)  
+  - `parse_logs.py` (log parsing/analysis helper)
 
 ## Steps
-1. Run the honeypot script in `/scripts`
-2. Monitor connections and commands in `/logs`
-3. Take screenshots or record analysis in `/images`
-4. Document attack patterns and findings
+1. Built the SSH honeypot using raw sockets to mimic an SSH banner and prompt.  
+2. Saved attacker login attempts and commands into log files inside `/logs`.  
+3. Ran `parse_logs.py` to extract common usernames, passwords, and attacker IP addresses.  
+4. Stored screenshots and analysis in `/images`.  
+5. Documented findings and attack patterns in this README.
 
 ## Findings
-- Recorded IP addresses attempting to connect
-- Common usernames and passwords used
-- Commands executed by attackers
+- Multiple IP addresses attempted to connect to the honeypot.  
+- Common brute-force usernames included: **root, admin, test, ubuntu**.  
+- Common password guesses included: **123456, password, admin, root**, and blank attempts.  
+- Attackers typically tried:  
+  - Running `uname -a`  
+  - Checking users via `whoami`  
+  - Attempting privilege escalation commands (`sudo su`, etc.)  
+- Activity indicated automated botnet scanners rather than human attackers.
 
 ## Skills Demonstrated
-- Honeypot deployment  
-- Network monitoring  
-- Log analysis  
+- Honeypot deployment and configuration  
+- Network monitoring and basic threat intelligence  
+- Log analysis and pattern identification  
+- Python scripting for defensive cybersecurity  
+- Understanding of SSH brute‑force behavior  
 
 ## Folder Structure
-- **`/logs`** – Captured connection logs  
-- **`/images`** – Screenshots of attacks or analysis  
-- **`/scripts`** – Honeypot scripts and setup  
+- **`/logs`** – Captured SSH attempt logs (`connection_log.txt`, sample attack logs, parsed output)  
+- **`/images`** – Screenshots of terminal outputs, analysis highlights  
+- **`/scripts`** – `ssh_honeypot.py`, `parse_logs.py`, and related files  
