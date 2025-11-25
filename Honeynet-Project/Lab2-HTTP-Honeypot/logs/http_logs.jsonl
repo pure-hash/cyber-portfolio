@@ -1,0 +1,34 @@
+[2025-01-23 14:02:18] [GET] 185.244.32.91 -> "/" UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+[2025-01-23 14:02:19] [POST] 185.244.32.91 -> username="admin" password="admin123" UA="Mozilla/5.0 (Windows NT 10.0)"
+
+[2025-01-23 15:11:03] [GET] 66.249.72.14 -> "/login" UA="Googlebot/2.1 (+http://www.google.com/bot.html)"
+[2025-01-23 15:11:05] [GET] 66.249.72.14 -> "/.env" UA="Googlebot/2.1"
+
+[2025-01-23 16:44:55] [POST] 103.156.12.77 -> username="root" password="Password1" UA="curl/7.68.0"
+[2025-01-23 16:44:55] [GET] 103.156.12.77 -> "/admin" UA="curl/7.68.0"
+
+[2025-01-23 17:22:08] [GET] 45.146.165.22 -> "/" UA="Mozilla/5.0 (Linux; Android 9; SM-A205U)"
+[2025-01-23 17:22:10] [POST] 45.146.165.22 -> username="j.smith" password="Welcome2024" UA="Mozilla/5.0 (Android 9)"
+
+[2025-01-23 18:01:44] [GET] 89.248.167.131 -> "/wp-login.php" UA="Mozilla/5.0 (compatible; BotScan/4.1)"
+[2025-01-23 18:01:45] [GET] 89.248.167.131 -> "/phpmyadmin" UA="Mozilla/5.0 (compatible; BotScan/4.1)"
+[2025-01-23 18:01:47] [POST] 89.248.167.131 -> username="root" password="root" UA="Mozilla/5.0 (compatible; BotScan/4.1)"
+
+[2025-01-23 18:33:14] [GET] 152.89.196.12 -> "/index.html" UA="python-requests/2.24.0"
+[2025-01-23 18:33:16] [POST] 152.89.196.12 -> username="test" password="123456" UA="python-requests/2.24.0"
+
+[2025-01-23 19:12:55] [GET] 41.231.53.8 -> "/dashboard" UA="Mozilla/5.0 (X11; Linux x86_64)"
+[2025-01-23 19:12:57] [POST] 41.231.53.8 -> username="finance-admin" password="Qwerty!234" UA="Mozilla/5.0 (Linux x86_64)"
+
+[2025-01-23 20:05:31] [GET] 185.107.56.215 -> "/api/login" UA="curl/8.0"
+[2025-01-23 20:05:32] [POST] 185.107.56.215 -> username="administrator" password="letmein" UA="curl/8.0"
+
+[2025-01-23 21:44:22] [GET] 193.27.228.54 -> "/.git/config" UA="Dirsearch/0.4.2"
+[2025-01-23 21:44:23] [GET] 193.27.228.54 -> "/backup.zip" UA="Dirsearch/0.4.2"
+[2025-01-23 21:44:25] [POST] 193.27.228.54 -> username="backup" password="backup123" UA="Dirsearch/0.4.2"
+
+[2025-01-23 22:16:11] [GET] 201.174.88.101 -> "/" UA="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)"
+[2025-01-23 22:16:12] [POST] 201.174.88.101 -> username="it-helpdesk" password="ServiceDesk2024" UA="Mozilla/5.0 (Mac OS X)"
+
+[2025-01-23 23:41:09] [GET] 5.255.87.120 -> "/login" UA="Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)"
+[2025-01-23 23:41:10] [GET] 5.255.87.120 -> "/admin" UA="Mozilla/5.0 (compatible; CensysInspect/1.1)"
