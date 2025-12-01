@@ -124,21 +124,52 @@ FRACTAL/
 
 ## ▶️ Getting Started
 
-### **1. Fork or Clone the Repo**
+Follow these steps to spin up the automated SOC lab:
+
+---
+
+### 1️⃣ Fork or Clone the Repository
 ```bash
 git clone https://github.com/<your-username>/automated-soc-lab.git
+cd automated-soc-lab
+```
 
-2. Add Cloud Credentials
+---
 
-Add your Terraform cloud credentials inside GitHub → Settings → Secrets and Variables:
+### 2️⃣ Configure Cloud Credentials
 
-CLOUD_ACCESS_KEY
+For automated deployment via GitHub Actions, add your cloud credentials to GitHub:
 
-CLOUD_SECRET_KEY
+**Navigate to:** `Settings → Secrets and Variables → Actions → New Repository Secret`
 
-SSH_PRIVATE_KEY
+Add the following secrets:
 
-3. Trigger Deployment
+| Secret Name         | Purpose                                   |
+|--------------------|-------------------------------------------|
+| `CLOUD_ACCESS_KEY`  | API key for your cloud provider           |
+| `CLOUD_SECRET_KEY`  | Secret key for your cloud provider        |
+| `SSH_PRIVATE_KEY`   | Private key for SSH access to VMs         |
 
-Push any commit → GitHub Actions will automatically deploy the full SOC.
+> 🔒 **Security Tip:** Keep secrets private and do not commit them in the repository.
+
+---
+
+### 3️⃣ Trigger Deployment
+
+Once your secrets are configured:
+
+1. Make any commit to the repository (or push a dummy file).  
+2. GitHub Actions will automatically trigger the workflow to deploy the full SOC lab.
+
+You can monitor progress in the **Actions tab** of your repository.
+
+---
+
+### 4️⃣ Verify & Access the Lab
+
+- Check the `results/` folder for logs and simulated alerts.  
+- Open OpenSearch dashboards (if configured) to view the detection pipeline in action.
+
+> 💡 Tip: The included demo mode runs safely with simulated logs — no real malware is executed.
+
 ---
