@@ -1,1 +1,12 @@
-
+title: Suspicious Encoded PowerShell Command
+id: 1234-5678-test-rule
+status: experimental
+logsource:
+  product: windows
+  service: sysmon
+detection:
+  selection:
+    EventID: 1
+    CommandLine|contains: "-enc"
+  condition: selection
+level: high
