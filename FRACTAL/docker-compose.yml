@@ -1,1 +1,9 @@
+version: '3.8'
 
+services:
+  victim:
+    build: ./sandbox
+    container_name: fractal_victim
+    volumes:
+      - ./logs:/logs
+    command: powershell
