@@ -66,7 +66,7 @@ This project showcases practical competencies:
 ---
 
 ## 📁 Repository Structure
-
+```
 **/**
 **├── terraform/ # Infrastructure-as-code**
 **├── ansible/ # Configuration automation**
@@ -76,7 +76,7 @@ This project showcases practical competencies:
 **├── attack-scripts/ # Automated adversary emulation**
 **├── .github/workflows/ # Auto-deploy pipeline**
 **└── README.md # You are here**
-
+```
 ---
 
 ## ⚙️ How It Works (High-Level Architecture)
