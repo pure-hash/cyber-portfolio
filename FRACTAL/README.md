@@ -66,17 +66,33 @@ This project showcases practical competencies:
 ---
 
 ## 📁 Repository Structure
+
 ```
-**/**
-**├── terraform/ # Infrastructure-as-code**
-**├── ansible/ # Configuration automation**
-**├── sigma/ # Custom detection rules**
-**├── suricata/ # IDS configuration + rules**
-**├── dashboards/ # OpenSearch dashboards**
-**├── attack-scripts/ # Automated adversary emulation**
-**├── .github/workflows/ # Auto-deploy pipeline**
-**└── README.md # You are here**
+FRACTAL/
+├── README.md                 # Documentation
+├── requirements.txt          # Python dependencies
+├── fractal.py                # Orchestrator script
+├── docker-compose.yml        # Container definitions
+│
+├── config/
+│   ├── sysmon_config.xml     # Sysmon configuration
+│   └── test_manifest.yaml    # Test definitions
+│
+├── sandbox/
+│   └── Dockerfile            # Victim sandbox build (Sysmon + Atomic Red Team)
+│
+├── rules/                    # Sigma rules
+│   ├── T1003_credential_dump.yml
+│   ├── T1059_powershell.yml
+│   └── custom_rule.yml
+│
+├── logs/                     # Ephemeral log storage
+│   └── .gitkeep
+│
+└── results/                  # Final validation reports
+    └── validation_report.json
 ```
+
 ---
 
 ## ⚙️ How It Works (High-Level Architecture)
