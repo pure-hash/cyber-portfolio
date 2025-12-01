@@ -97,27 +97,28 @@ FRACTAL/
 
 ## ⚙️ How It Works (High-Level Architecture)
 
-       GitHub Actions
-             |
-             v
-   Terraform deploys infra
-             |
-             v
-      Ansible configures:
+```
+                GitHub Actions
+                       |
+                       v
+              Terraform deploys infra
+                       |
+                       v
+              Ansible configures:
+                 - Sysmon
+                 - Wazuh SIEM
+                 - Suricata IDS
+                       |
+                       v
+                Log Pipelines
+                       |
+                       v
+     Attack Scripts auto-triggered hourly
+                       |
+                       v
+               Alerts + Dashboards
+```
 
--Sysmon
-
--Wazuh SIEM
-
--Suricata IDS
-
-Log pipelines
-    |
-    v
-Attack Scripts auto-triggered hourly
-    |
-    v
-Alerts + Dashboards
 
 ---
 
