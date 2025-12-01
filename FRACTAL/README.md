@@ -110,7 +110,7 @@ Alerts + Dashboards
 ```bash
 git clone https://github.com/<your-username>/automated-soc-lab.git
 
-### **2. Add Cloud Credentials**
+2. Add Cloud Credentials
 
 Add your Terraform cloud credentials inside GitHub → Settings → Secrets and Variables:
 
@@ -124,5 +124,3 @@ SSH_PRIVATE_KEY
 
 Push any commit → GitHub Actions will automatically deploy the full SOC.
 ---
-
-## 📁 Repository Structure
