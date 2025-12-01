@@ -1,1 +1,5 @@
-
+tests:
+  - id: T1059.001
+    name: PowerShell Encoded Command
+    atomic_test: "Invoke-AtomicTest T1059.001 -TestNumbers 1"
+    sigma_rule: "T1059_powershell_encoded.yml"
