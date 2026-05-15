@@ -1,9 +1,9 @@
 # 🛡️ Automated SOC Lab Generator  
-**Enterprise-Style Blue Team Lab • Auto-Deploy • Resume-Ready**
+**Enterprise-Style Blue Team Lab • Auto-Deploy**
 
 This project automatically builds a complete, enterprise-grade SOC lab with **zero manual setup**, leveraging GitHub Actions, Terraform, Ansible, Sigma, Suricata, Wazuh, and OpenSearch.
 
-It’s designed to demonstrate **real-world defensive engineering skills**, incident response workflows, SIEM engineering, log pipelines, and automation—exactly what hiring managers love to see for entry-level cybersecurity roles.
+It’s designed to demonstrate **real-world defensive engineering skills**, incident response workflows, SIEM engineering, log pipelines, and automation.
 
 ---
 
